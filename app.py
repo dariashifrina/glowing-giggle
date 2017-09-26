@@ -35,7 +35,7 @@ def random_occupation():
 
 @app.route("/occupations")
 def occupations():
-	return render_template( 'occ_page.html', my_dict = cool_dic)
+	return render_template( 'occ_page.html', my_dict = cool_dic, my_occ = random_occupation())
 
 if __name__ == "__main__":
 	app.debug = True
