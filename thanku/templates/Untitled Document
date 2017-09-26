@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Yo occupation </title>
+</head>
+<body>
+    <h1>Da Orphans<br>SoftDev pd7<br>HW#05: ...and Now Enjoy Its Contents<br>2017-09-26</h1>
+    <table>
+	<tr>
+		<th>Job Class</th>
+		<th>Percentage</th>
+	</tr>
+	<tr>
+		
+		{% for occupation in occdict %}
+			<td>{{ occdict[occupation]
+</table>
+</body>
+</html>
