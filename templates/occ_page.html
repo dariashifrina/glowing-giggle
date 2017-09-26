@@ -2,10 +2,18 @@
 <html>
 <head>
     <title> Yo occupation </title>
+    <style type="text/css">
+        table {
+            border-spacing: 5px;
+        }
+        th, td {
+            text-align: middle;
+        }
+    </style>
 </head>
 <body>
     <h3>Da Orphans<br>SoftDev pd7<br>HW#05: ...and Now Enjoy Its Contents<br>2017-09-26</h3>
-    <table>
+    <table border="1">
 	<tr>
 		<th>Job Class</th>
 		<th>Percentage</th>
@@ -13,7 +21,7 @@
         {% for occupation in my_dict %}
 	<tr>
         <td>{{ occupation }}</td>
-        <td>{{ my_dict[occupation] }}</td>
+        <td align="center">{{ my_dict[occupation] }}</td>
 	</tr>
         {% endfor %}
     </table>
