@@ -21,10 +21,11 @@
         {% for occupation in my_dict %}
 	<tr>
         <td>{{ occupation }}</td>
-        <td align="center">{{ my_dict[occupation] }}</td>
+        <td align="center">{{ my_dict[occupation][0] }}</td>
 	</tr>
         {% endfor %}
     </table>
     <br><h4>Randomly selected occupation: {{ my_occ }} </h4>
+    <h5>Find out more about this occupation <a href="{{ my_link }}">here</a></h5>
 </body>
 </html>

@@ -1,24 +1,24 @@
-Job Class,Percentage
-Management,6.1
-Business and Financial operations,5
-Computer and Mathematical,2.7
-Architecture and Engineering,1.7
-"Life, Physical and Social Science",0.9
-Community and Social Service,1.6
-Legal,0.8
-"Education, training and library",6.1
-"Arts, design, entertainment, sports and media",1.7
-Healthcare practioners and technical,5.5
-Healthcare support,2.8
-Protective service,2.3
-Food preparation and serving,8.3
-Building and grounds cleaning and maintenance,3.7
-Personal care and service,4
-Sales,10.2
-Office and administrative support,15.1
-"Farming, fishing and forestry",0.6
-Construction and extraction,4.3
-"Installation, maintenance and repair",3.8
-Production,6.1
-Transportation and material moving,6.5
-Total,99.8
+Job Class,Percentage,Link to Success
+Management,6.1,https://www.thebalance.com/getting-a-first-management-job-2275109
+Business and Financial operations,5,http://www.careers.org/occupations/field/13/business-and-financial-operations
+Computer and Mathematical,2.7,https://datausa.io/profile/soc/150000/
+Architecture and Engineering,1.7,http://www.engineering.com/jobs/architectural-engineering/
+"Life, Physical and Social Science",0.9,https://www.bls.gov/oes/current/oes190000.htm
+Community and Social Service,1.6,https://www.bls.gov/oes/current/oes210000.htm
+Legal,0.8,https://lawjobs.com/new-york
+"Education, training and library",6.1,https://www.bls.gov/oes/current/oes250000.htm
+"Arts, design, entertainment, sports and media",1.7,https://www.bls.gov/oes/current/oes270000.htm
+Healthcare practioners and technical,5.5,https://www.bls.gov/oes/current/oes290000.htm
+Healthcare support,2.8,https://money.usnews.com/careers/best-jobs/rankings/best-health-care-support-jobs
+Protective service,2.3,https://www1.cfnc.org/Plan/For_A_Career/Career_Cluster_Profile/Cluster_Article.aspx?articleId=eIv8K263T1HUSJ6KnRlPdAXAP3DPAXXAP3DPAX&cId=Rev4XiJAMd2VfgYMBXuVvQXAP3DPAXXAP3DPAX&sectionId=3
+Food preparation and serving,8.3,http://study.com/articles/Become_a_Food_Preparation_Worker_Career_Guide.html
+Building and grounds cleaning and maintenance,3.7,https://www.governmentjobs.com/jobs?keyword=Building%20%26%20Grounds%20Cleaning%20and%20Maintenance
+Personal care and service,4,https://www.dshs.texas.gov/caseman/pcs.shtm
+Sales,10.2,http://www.yesware.com/blog/how-to-land-a-sales-job-in-six-simple-steps/
+Office and administrative support,15.1,https://www.bls.gov/oes/current/oes430000.htm
+"Farming, fishing and forestry",0.6,https://collegegrad.com/careers/farming-fishing-and-forestry
+Construction and extraction,4.3,http://www.careers.org/occupations/field/47/construction-and-extraction
+"Installation, maintenance and repair",3.8,https://collegegrad.com/careers/installation-maintenance-and-repair
+Production,6.1,https://www.filmconnection.com/reference-library/film-entrepreneurs/how-to-get-started-in-film/
+Transportation and material moving,6.5,https://collegegrad.com/careers/transportation-and-material-moving
+Total,99.8,
