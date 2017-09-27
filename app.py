@@ -2,10 +2,12 @@ from flask import Flask, render_template, redirect
 import random
 app = Flask(__name__)
 
+#Redirects route to occupations route
 @app.route("/")
 def hello_world():
     return redirect("/occupations")
 
+#Creation of dictionary
 cool_file = open("data/occupations.csv", "r") #Open up our csv file so we can get to working on it
 cool_list = cool_file.readlines() #Read the file in a way that each line is a list item
 cool_file.close()
@@ -26,6 +28,7 @@ while (i<len(cool_list)):
      #cool_dic[thisLine[:prelast_comma].strip('"')] = thisLine[comma + 1:].strip('\n').strip("\r") #Add the stuff before the comma (occupation) to the dictionary as a key, then add the stuff after the comma as a value!
      i += 1 #Wouldn't want an infinite loop now would we
 
+#Returns a random occupation
 def random_occupation():
     c = 0 #counter for while loop
     random_float = random.uniform(0.0, 99.8) #float within range
@@ -36,13 +39,15 @@ def random_occupation():
         if (cumulative_probability>random_float):
             return cool_dic.keys()[c]
         c += 1
-                                                                           
+
+#Returns the helpful link to the corresponding occupation	
 def occupation_link(occupation):
     return cool_dic[occupation][1]
                                                                            
 @app.route("/occupations")
 def occupations():
         occupation = random_occupation()
+	#Passes webpage from template, dictionary of Job Class, Percentage, and Link, and link to corresponding random profession
 	return render_template( 'occ_page.html', my_dict = cool_dic, my_occ = occupation, my_link = occupation_link(occupation))
 
 if __name__ == "__main__":
