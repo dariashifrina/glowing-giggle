@@ -2,6 +2,7 @@
 <html>
 <head>
     <title> Yo occupation </title>
+    <!-- Sets border spacing and aligns the text of the table to the middle -->	
     <style type="text/css">
         table {
             border-spacing: 5px;
@@ -13,11 +14,13 @@
 </head>
 <body>
     <h3>Da Orphans<br>SoftDev pd7<br>HW#05: ...and Now Enjoy Its Contents<br>2017-09-26</h3>
+    <!-- Standard table border -->		
     <table border="1">
 	<tr>
 		<th>Job Class</th>
 		<th>Percentage</th>
 	</tr>
+	<!-- For loop that lists the occupation in the first row, and corresponding percentages in the second -->	
         {% for occupation in my_dict %}
 	<tr>
         <td>{{ occupation }}</td>
@@ -25,7 +28,9 @@
 	</tr>
         {% endfor %}
     </table>
+    <!-- Randomly selects an occupation -->		
     <br><h4>Randomly selected occupation: {{ my_occ }} </h4>
+    <!-- Helpful link to corresponding occupation -->		
     <h5>Find out more about this occupation <a href="{{ my_link }}">here</a></h5>
 </body>
 </html>
